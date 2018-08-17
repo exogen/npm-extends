@@ -2,6 +2,7 @@
   "name": "npm-extends",
   "version": "0.1.1",
   "description": "",
+  "repository": "exogen/npm-extends",
   "main": "index.js",
   "scripts": {
     "npm:extends": "node demo-package/cli.js",
