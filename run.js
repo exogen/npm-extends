@@ -6,7 +6,7 @@ module.exports = originalRun => {
     if (name) {
       const data = readPackage.sync({ normalize: false });
       const { scripts } = data.pkg;
-      if (scripts && !(name in scripts)) {
+      if (scripts && !(name in scripts) && 'npm:extends' in scripts) {
         args.unshift('npm:extends');
       }
     }
