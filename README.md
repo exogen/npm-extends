@@ -40,6 +40,12 @@ It will be passed the script name and arguments.
 Now you can run scripts that aren’t in there, but are supported by your tool!
 
 ```console
+$ npm run boring-script
+
+> echo BooOoOOOriing
+
+BooOoOOOriing
+
 $ npm run cool-script
 
 > your-cli "cool-script"
