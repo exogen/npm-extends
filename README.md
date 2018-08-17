@@ -2,7 +2,8 @@
 
 ## What?
 
-This poisons the `require.cache` entry for npm’s `run-script` command with a
+This abuses npm’s `onload-script` option, which can be set on a per-project
+basis, to poison the `require.cache` entry for npm’s `run-script` command with a
 cooler version that runs a custom CLI of your choosing if the specified script
 isn’t in `package.json`.
 
