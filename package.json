@@ -1,0 +1,17 @@
+{
+  "name": "npm-extends",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "npm:extends": "node demo-package/cli.js",
+    "boring-script": "echo BooOoOOOriing"
+  },
+  "keywords": [],
+  "author": "Brian Beck <exogen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphbrainz": "^8.0.3",
+    "read-pkg-up": "^4.0.0"
+  }
+}
